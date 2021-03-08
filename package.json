@@ -1,0 +1,16 @@
+{
+  "name": "kcp-proxy",
+  "version": "1.3.3",
+  "main": "index.js",
+  "author": "as3long@qq.com",
+  "license": "MIT",
+  "bin": {
+    "kcp-client": "./bin/kcp-client.js",
+    "kcp-server": "./bin/kcp-server.js"
+  },
+  "dependencies": {
+    "node-kcp": "^1.0.12",
+    "simple-socks": "^2.1.0",
+    "through2": "^4.0.2"
+  }
+}
